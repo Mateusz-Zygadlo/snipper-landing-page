@@ -38,7 +38,7 @@ export const Navbar = () => {
           <Button />
         </div>
       ) : isOpen ? (
-        <div className="border bg-white absolute top-2 right-3 p-4">
+        <div className="border bg-white absolute top-2 md:top-2 right-3 md:right-14 p-4">
           <img 
             src={Images.Close}
             alt="close"

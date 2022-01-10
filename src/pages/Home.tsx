@@ -1,7 +1,8 @@
 import React from 'react'
 import { 
   Navbar, 
-  Header 
+  Header,
+  Main,
 } from '../components'
 import { useScrollToTop } from '../hooks'
 
@@ -10,10 +11,11 @@ export const Home = () => {
 
   return(
     <div className="w-full max-w-screen-2xl 2xl:mx-auto">
-      <div className="bg-gradient-to-r from-red-400 via-white to-purple-200 relative">
+      <div className="bg-gradient-to-r from-red-400 via-white to-purple-200">
         <Navbar />
         <Header />
       </div>
+      <Main />
     </div>
   )
 }
