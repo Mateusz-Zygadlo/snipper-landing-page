@@ -3,6 +3,7 @@ import {
   Navbar, 
   Header,
   Main,
+  Footer,
 } from '../components'
 import { useScrollToTop } from '../hooks'
 
@@ -16,6 +17,7 @@ export const Home = () => {
         <Header />
       </div>
       <Main />
+      <Footer />
     </div>
   )
 }
